@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-form">
+        <header class="page-header">LOGIN</header>
+ <p>
+        <form id="login-form">
+            <div class="input-group">
+                <label for="quantity">Quantity</label>
+                <input type="tel" id="quantity" name="quantity" required>
+            </div>
+        <div class="input-group">
+                <label for="address">Address</label>
+                <textarea id="address" name="address" rows="3" cols="20"></textarea>
+           </div>
+         <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Added To Cart</button>
+        </form>
+        <div id="login-message"></div>
+    </div>
+    <script src="login.js"></script>
+   
+</body>
+</html>
